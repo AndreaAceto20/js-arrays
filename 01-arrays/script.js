@@ -37,4 +37,9 @@ const lewisIndex = teachers[5];
 let verify = teachers.length;
 
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = "L'array è vuoto";
+if(verify === 0){
+const isTeachersEmpty = true;
+}
+else{
+  const isTeachersEmpty = false;
+}
